@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url("../fonts/RedHatDisplay-Regular.woff2") format("woff2"), url("../fonts/RedHatDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url("../fonts/RedHatDisplay-Bold.woff2") format("woff2"), url("../fonts/RedHatDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.text-color-very-pale-blue {
+  color: #f5f7ff;
+}
+
+.text-color-desaturated-blue {
+  color: #7280a7;
+}
+
+.text-color-dark-blue {
+  color: #1f2f56;
+}
+
+.text-color-pale-blue {
+  color: #f5f7ff;
+}
+
+.text-color-bright-blue {
+  color: #3829e0;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  font-family: "Red Hat Display", Arial, sans-serif !important;
+  background-image: url(/assets/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.card {
+  border-radius: .5rem;
+}
+
+.card .card-title {
+  color: #1f2f56;
+}
+
+.card .card-between {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.card .card-content {
+  background-color: #f5f7ff;
+  margin: auto;
+  padding: 5px;
+}
+
+.card .card-content .annual-content {
+  margin-right: 25px;
+}
+
+.card .card-content img {
+  margin-right: 7px;
+}
+
+.card .rounded-top {
+  border-top-left-radius: 0.5rem !important;
+  border-top-right-radius: 0.5rem !important;
+}
+
+.card .btn-payment {
+  color: #fff;
+  background-color: #3829e0;
+  border-color: #3829e0;
+  font-weight: bold;
+  padding: 5px 25px;
+}
+
+.card .btn-payment:hover {
+  opacity: .8;
+}
+
+.card .btn-cancel {
+  color: #7280a7;
+  background-color: transparent;
+  border-color: transparent;
+  font-weight: bold;
+}
+
+.card .btn-cancel:hover {
+  color: #1f2f56;
+}
+
+.card a {
+  color: #3829e0;
+  margin-top: 15px;
+  font-size: 10px;
+}
